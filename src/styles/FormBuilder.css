@@ -1,0 +1,179 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.form-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.form-header {
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Title & Description Inputs */
+.form-title-section {
+  padding: 20px;
+}
+
+.form-title-input,
+.form-description-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.form-title-input {
+  font-weight: bold;
+}
+
+.form-description-input {
+  font-size: 14px;
+  color: #555;
+  resize: none;
+}
+
+/* Form Body */
+.form-body {
+  padding: 20px;
+}
+
+/* Sections */
+.section {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Section Title */
+.section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Question Card */
+.question-card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.question-card input,
+.question-card select,
+.question-card textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.question-card textarea {
+  resize: vertical;
+}
+
+/* Options */
+.option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.option-input {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  font-size: 14px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #155bb5;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Add Section */
+.add-section-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+  text-align: center;
+}
+
+.add-section-card:hover {
+  background: #bbdefb;
+}
+
+.add-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Export & Action Buttons */
+.export-btn {
+  background: #34a853;
+}
+
+.export-btn:hover {
+  background: #2d8c45;
+}
+
+/* File Upload */
+input[type="file"] {
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .form-container {
+    width: 95%;
+  }
+
+  .form-title-input,
+  .form-description-input {
+    font-size: 16px;
+  }
+}
